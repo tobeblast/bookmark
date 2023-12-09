@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.double{
+    margin-top: 15%;
+}
+
+.blue{
+    background: blue;
+    width: 40%;
+    height: 50vh;
+    border-radius: 150px 0 0 150px;
+}
+
+.empty{
+    margin-left: 8%;
+    width: 50%;
+    height: 50vh;
+}
+
+.simple{
+    width: 50%;
+    bottom: 50%;
+}
+
+.clean{
+    width: 80%;
+}
+
+.first-image{
+    margin-top: -30%;
+    margin-left: -35%;
+}
+
+.two-btn{
+    gap: 20px;
+}
+
+.btn1{
+    border: 0;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 5px;
+}
+
+.btn2 {
+    border: 0;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 4px 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.main{
+    margin-top: 10%;
+}
+
+.our{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+.three{
+    margin-left: 4%;
+    justify-content: space-around;
+    display: flex;
+}
+
+.three p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.red-div{
+    bottom: -4%;
+}
+
+.red-line{
+    border: 1px;
+    background-color: red;
+    width: 20%;
+    height: 1vh;
+}
+
+.blue2 {
+    background: blue;
+    width: 40%;
+    height: 50vh;
+    border-radius: 0px 150px 150px 0;
+
+}
+
+.click{
+    bottom: 32%;
+    left: 55%;
+}
+
+.second-image{
+    margin-left: 15%;
+    margin-top: -15%;
+}
+
+.organize{
+    width: 80%;
+}
+
+.btn-more {
+    border: 0;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.down{
+    margin-top: 40%;
+}
+
+.powerful{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+.engine{
+    gap: 25px;
+}
+
+.chrome{
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+    width: 28%;
+}
+
+.firefox{
+    box-shadow: 2px 2px 5px gray;
+    width: 28%;
+    border-radius: 10px; 
+    top: 40px;  
+}
+
+.opera{
+    box-shadow: 2px 2px 5px gray;
+    width: 28%;
+    border-radius: 10px;
+    top: 75px;
+}
+
+.image {
+    top: 70%;
+}
+
+
+.accordion{
+    margin-left: 26%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.en-btn{
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 8%;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 6px rgb(156, 174, 182);
+}
+
+.frequent{
+    margin-top: 15%;
+}
+
+.here{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.footer{
+    background-color: blue;
+    width: 100%;
+}
+
+.first{
+    margin-bottom: 5%;
+}
+
+.stay{
+    margin-left: 15%;
+}
+
+.btn-in{
+    gap: 65px;
+    margin-left: 18%;
+}
+input{
+    border: 0;
+    border-radius: 5px;
+    padding: 15px;
+    width: 50%;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.btn3{
+    background-color: red;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    padding:  5px;
+}
+
+.second{
+    background-color: black;
+}
+
+.icon{
+    gap: 40px
+}
+
+
+@media(max-width:500px){
+
+
+    .section{
+        overflow: hidden;
+    }
+
+    .double{
+        top: 10%;
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+
+ 
+    .blue{
+        display: none;
+    }
+
+    .blue-mobile{
+        background: blue;
+        width: 80%;
+        height: 25vh;
+        left: 20%;
+        border-radius: 150px 0 0 150px;
+    }
+
+    .blue-mobile .first-image{
+        left: 30px;
+    }
+
+    .simple {
+        width: 100%;
+        bottom: -10%;
+        left: 13px;
+        text-align: center;
+        margin-bottom: 10%;
+    }
+
+    .clean {
+        width: 90%;
+    }
+
+    .simple h4{
+        width: 100%!important;
+    }
+
+    .features{
+        width: 100%;
+        margin-top: 30%;
+    }
+
+    .our{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .three{
+        display: none;
+    }
+
+    .three-mobile{
+        display: block;
+    }
+
+
+}
+
