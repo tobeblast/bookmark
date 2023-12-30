@@ -151,10 +151,6 @@
     width: 28%;
 }
 
-.chrome :hover{
-    scale: 1.1;
-}
-
 .firefox{
     box-shadow: 2px 2px 5px gray;
     width: 28%;
@@ -162,21 +158,11 @@
     top: 40px;  
 }
 
-.firefox :hover{
-    scale: 1.1;
-}
-
 .opera{
     box-shadow: 2px 2px 5px gray;
     width: 28%;
     border-radius: 10px;
     top: 75px;
-    background: white;
-}
-
-.op :hover{
-    scale: 1.1;
-    cursor: pointer;
 }
 
 .image {
